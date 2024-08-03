@@ -1,0 +1,14 @@
+struct F{int64 a=100;float b=0.9e-10;char c='\n';string d="hello";boolean e=false;};
+struct Y{}; 
+struct W;
+struct I{int64 p=1+2-3;int64 q=1*2%4/3;};
+struct V{long b;char c='x';double d;int e;char f;string g;boolean h;};
+module M{struct L{short c;};};
+struct J{int64 x=1|2|3;int64 y=1^2^3;int64 z=1&2&3;int64 w=1>>2<<3;};
+struct R{char i;int64 j;struct Q{}k;};
+struct X;
+struct T{float p='a',q;};
+struct H{int64 m=-1,n=+0.5,o=~0;};
+struct H{int64 m=-1,n=+0.5,o=~0;};
+module E{struct D{unsigned long long z=1|2^3&4>>5+6*7/8%~9;};};
+struct S{long double m;struct N{};}; 

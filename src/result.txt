@@ -1,0 +1,54 @@
+struct struct {
+    int64 a = 100;
+    float b = 0.0;
+    char c = '\n';
+    string d = "hello";
+    boolean e = false;
+} F;
+struct Y;
+struct W;
+struct struct {
+    int64 p = 0;
+    int64 q = 0;
+} I;
+struct struct {
+    long b;
+    char c = 'x';
+    double d;
+    null e;
+    char f;
+    string g;
+    boolean h;
+} V;
+struct module {
+    struct struct {
+        short c;
+    } L;
+} M;
+struct struct {
+    int64 x = 23;
+    int64 y = 22;
+    int64 z = 1;
+    int64 w = 0;
+} J;
+struct struct {
+    char i;
+    int64 j;
+    struct Q;
+} k;
+struct X;
+struct struct {
+} T;
+struct struct {
+    int64 o = 0;
+} H;
+struct module {
+    struct struct {
+    } D;
+} E;
+struct struct {
+    struct N;
+} S;
+struct struct {
+    null a;
+} Z;
