@@ -8,7 +8,7 @@
 
 ## 实验流程
 1. 下载安装antlr，并且按照网上教程通过环境变量的加入和批处理程序的编写，搭配好antlr环境
-2. 根据实验要求编写[MIDL.g4](../src/MIDL.g4)，然后通过之前的批处理程序在-visitor指令下生成[antlrfile](../src/antlrfile)中的相应的代码
+2. 根据实验要求编写[MIDL.g4](/main/src/MIDL.g4)，然后通过之前的批处理程序在-visitor指令下生成[antlrfile](../src/antlrfile)中的相应的代码
 3. 按照实验一要求，定义AST结构并且使用生成的词法和语法分析器，将其放入[astmade](../src/astmade)
 4. 按照实验二的要求，对语法结果进行语义分析、构建辅助类计算实际值做出类型判断并且将其构建为一个有实际意义的Bean结构，将其放入[errortest](../src/errortest)
 5. 按照实验二的要求，通过语义分析过程中生成的有实际意义的Bean结构进行目标代码的生成，将其放入[gencode](../src/gencode)
